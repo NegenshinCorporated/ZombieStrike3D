@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 15706 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 32610 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\Unity 2022.3.19f1\2022.3.19f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/dzube/GitHub/ZombieStrike3D/ZombieStrike
+C:/Users/B-ZONE/GitHub/ZombieStrike3D/ZombieStrike
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-63933
-Successfully changed project path to: C:/Users/dzube/GitHub/ZombieStrike3D/ZombieStrike
-C:/Users/dzube/GitHub/ZombieStrike3D/ZombieStrike
+63629
+Successfully changed project path to: C:/Users/B-ZONE/GitHub/ZombieStrike3D/ZombieStrike
+C:/Users/B-ZONE/GitHub/ZombieStrike3D/ZombieStrike
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,67 @@ C:/Users/dzube/GitHub/ZombieStrike3D/ZombieStrike
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12140] Host "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 4056120184 [EditorId] 4056120184 [Version] 1048832 [Id] WindowsEditor(7,Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13608] Host "[IP] 192.168.0.113 [Port] 0 [Flags] 2 [Guid] 4130899954 [EditorId] 4130899954 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IPRQFUO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12140] Host "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 4056120184 [EditorId] 4056120184 [Version] 1048832 [Id] WindowsEditor(7,Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13608] Host "[IP] 192.168.0.113 [Port] 0 [Flags] 2 [Guid] 4130899954 [EditorId] 4130899954 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IPRQFUO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 10.83 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 7.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/dzube/GitHub/ZombieStrike3D/ZombieStrike/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2022.3.19f1/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/B-ZONE/GitHub/ZombieStrike3D/ZombieStrike/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
-    Vendor:   ATI
-    VRAM:     7853 MB
-    Driver:   31.0.21912.14
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8017 MB
+    Driver:   32.0.15.6094
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2022.3.19f1/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2022.3.19f1/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2022.3.19f1/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.189140 seconds.
-- Loaded All Assemblies, in  3.958 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2022.3.19f1/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2022.3.19f1/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009272 seconds.
+- Loaded All Assemblies, in  0.331 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.535 seconds
-Domain Reload Profiling: 4491ms
-	BeginReloadAssembly (1573ms)
+- Finished resetting the current domain, in  0.247 seconds
+Domain Reload Profiling: 577ms
+	BeginReloadAssembly (108ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (765ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (279ms)
-	LoadAllAssembliesAndSetupDomain (1319ms)
-		LoadAssemblies (1569ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (106ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1315ms)
-			TypeCache.Refresh (1312ms)
-				TypeCache.ScanAssembly (1155ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (536ms)
+	FinalizeReload (248ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (425ms)
+		SetupLoadedEditorAssemblies (198ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (303ms)
-			ProcessInitializeOnLoadMethodAttributes (94ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,59 +117,59 @@ Domain Reload Profiling: 4491ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  9.538 seconds
-Refreshing native plugins compatible for Editor in 6.20 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.608 seconds
+Refreshing native plugins compatible for Editor in 3.72 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.046 seconds
-Domain Reload Profiling: 10582ms
-	BeginReloadAssembly (276ms)
+- Finished resetting the current domain, in  0.606 seconds
+Domain Reload Profiling: 1212ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (9113ms)
-		LoadAssemblies (8257ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (289ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1012ms)
-			TypeCache.Refresh (984ms)
-				TypeCache.ScanAssembly (898ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1047ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (145ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (606ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (772ms)
+		SetupLoadedEditorAssemblies (465ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (602ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
 			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 10.13 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3547.
-Memory consumption went from 122.7 MB to 122.6 MB.
-Total: 6.419900 ms (FindLiveObjects: 0.929100 ms CreateObjectMapping: 0.232000 ms MarkObjects: 5.080400 ms  DeleteObjects: 0.176600 ms)
+Unloading 3467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (57.9 KB). Loaded Objects now: 3930.
+Memory consumption went from 132.7 MB to 132.7 MB.
+Total: 6.419400 ms (FindLiveObjects: 0.565000 ms CreateObjectMapping: 0.180300 ms MarkObjects: 5.550300 ms  DeleteObjects: 0.122700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
@@ -181,124 +183,164 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 186551.839732 seconds.
-  path: Assets/Military/Prefab/PlayerArmature.prefab
-  artifactKey: Guid(f269b47f315e0284f8824a9e948a3f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military/Prefab/PlayerArmature.prefab using Guid(f269b47f315e0284f8824a9e948a3f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f6d4a64fb3d0f3cb04ac047575cea4') in 2.376107 seconds
+  Time since last request: 271813.639105 seconds.
+  path: Assets/Low Poly SMG Weapon Pack 3/Models/Attachments/Accessories/Rails/Rail_A/Rail_A_Down.fbx
+  artifactKey: Guid(cf29a2fa38e123049b44ea42f87ca8fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Low Poly SMG Weapon Pack 3/Models/Attachments/Accessories/Rails/Rail_A/Rail_A_Down.fbx using Guid(cf29a2fa38e123049b44ea42f87ca8fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b0b661a906391565fb8a34b0777992e') in 0.118508 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 426
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Military/Prefab/GameObject.prefab
-  artifactKey: Guid(67ee4c92fc8701b409879e605766f8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military/Prefab/GameObject.prefab using Guid(67ee4c92fc8701b409879e605766f8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33c0241ffdc8c9dd42f30540ae677b8') in 0.007521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Military/Materials/Eyes1.mat
-  artifactKey: Guid(38b71884de7d2094587df9ab6c870d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military/Materials/Eyes1.mat using Guid(38b71884de7d2094587df9ab6c870d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d444e9c1f4245a103d39b79c25d834e') in 0.068967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Military/Basemesh
-  artifactKey: Guid(4c30c361572b4cb45a215d69737339ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military/Basemesh using Guid(4c30c361572b4cb45a215d69737339ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4006d1f4415e12cb13b3797dfab7ae5') in 0.001200 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Military/Materials/Boots3_Skin1.mat
-  artifactKey: Guid(b4968c47c65a7f04d838250af66552f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military/Materials/Boots3_Skin1.mat using Guid(b4968c47c65a7f04d838250af66552f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e843326f75720e471b9ca7ddc88f0a62') in 0.044525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Military/StarterAssets/Environment
-  artifactKey: Guid(8d8da06649314d7498296c53b4a0a77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military/StarterAssets/Environment using Guid(8d8da06649314d7498296c53b4a0a77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9499930cc6dda2572eb1f1017f7c2d') in 0.001602 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Military/StarterAssets
-  artifactKey: Guid(3397cd14c28cccf47b097769f7817a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military/StarterAssets using Guid(3397cd14c28cccf47b097769f7817a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3605efed5113c6e5c301ca63e23f63') in 0.001883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Military/Floor/MAT_Floor_HDRP.mat
-  artifactKey: Guid(03c0b94cd9685824dbd259e44c5949c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military/Floor/MAT_Floor_HDRP.mat using Guid(03c0b94cd9685824dbd259e44c5949c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9187be10384380829ea1d9ba447f012') in 0.018138 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly SMG Weapon Pack 3/UI/Attachments/Optics/Optics_IronSight/Optic_AH_1K_1.png
+  artifactKey: Guid(9a7ec10cbf8d6fb4194380d4e0c33f23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Low Poly SMG Weapon Pack 3/UI/Attachments/Optics/Optics_IronSight/Optic_AH_1K_1.png using Guid(9a7ec10cbf8d6fb4194380d4e0c33f23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f757b02a2e6ae78ff158f0907f8d3274') in 0.050766 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Military/Materials/Pouches1_Skin2.mat
-  artifactKey: Guid(fd4594c9614f0424da87b142d7d3801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military/Materials/Pouches1_Skin2.mat using Guid(fd4594c9614f0424da87b142d7d3801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b97bda1febc26dab3a01183b6c22c3') in 0.072842 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Military/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller
+  artifactKey: Guid(40db3173a05ae3242b1c182a09b0a183) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Military/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller using Guid(40db3173a05ae3242b1c182a09b0a183) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8dffd0dc6470f8086e5dc5a922e2c2b4') in 0.011997 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 21
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly SMG Weapon Pack 3/UI/Attachments/UnderBarrels/ForwardGrips/ForwardGrip_X_Sand_1k_2.png
+  artifactKey: Guid(7980a2badaf633f4a84fec7ab4bd2ee4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Low Poly SMG Weapon Pack 3/UI/Attachments/UnderBarrels/ForwardGrips/ForwardGrip_X_Sand_1k_2.png using Guid(7980a2badaf633f4a84fec7ab4bd2ee4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78f334063a5ccc2c4d0012d844388639') in 0.021231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly SMG Weapon Pack 3/UI/Attachments/UnderBarrels/ForwardGrips/ForwardGrip_Y_1K_2.png
+  artifactKey: Guid(8fdbadfc8e4158c4d97327cd927ba440) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Low Poly SMG Weapon Pack 3/UI/Attachments/UnderBarrels/ForwardGrips/ForwardGrip_Y_1K_2.png using Guid(8fdbadfc8e4158c4d97327cd927ba440) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c44794048856adcdc6d416e40fa07f76') in 0.019739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly SMG Weapon Pack 3/UI/Attachments/Accessories/Lights/Light_A_1k_1.png
+  artifactKey: Guid(96dec6e4723b45b4495d6ac827bd3915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Low Poly SMG Weapon Pack 3/UI/Attachments/Accessories/Lights/Light_A_1k_1.png using Guid(96dec6e4723b45b4495d6ac827bd3915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed883a045caec87027542cdb5230b159') in 0.021081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Military/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx
+  artifactKey: Guid(f712806514868e54699156ec05dcb749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Military/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx using Guid(f712806514868e54699156ec05dcb749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d15baa890ac8e65739163a9a9188eae') in 0.026913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
   path: Assets/Military/StarterAssets/InputSystem/StarterAssets.inputsettings.asset
-  artifactKey: Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military/StarterAssets/InputSystem/StarterAssets.inputsettings.asset using Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede891e164c92b75296ef43f16d8155b') in 0.020588 seconds
+  artifactKey: Guid(9e7be553448fa2546aea5752021cbcf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Military/StarterAssets/InputSystem/StarterAssets.inputsettings.asset using Guid(9e7be553448fa2546aea5752021cbcf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51dcc88353be6803c7f82ab2c2d7676d') in 0.015645 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Military/Prefab/SK_Military_Survivalist (2).prefab
-  artifactKey: Guid(ee890c2bad02eb24992202c420217a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military/Prefab/SK_Military_Survivalist (2).prefab using Guid(ee890c2bad02eb24992202c420217a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd484d1bf81d3f2ebf05b344dfeffa93') in 0.369886 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Military/Texture/Equip/T_Military_Gloves1_color_skin2.png
+  artifactKey: Guid(25ffb7274ee8edd4297e1f877021ba20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Military/Texture/Equip/T_Military_Gloves1_color_skin2.png using Guid(25ffb7274ee8edd4297e1f877021ba20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '257799c862f389fed98d48dc83fff254') in 0.019302 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 255
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Military/Prefab/SK_Military_Survivalist (4).prefab
-  artifactKey: Guid(018f1c2109d7023488206bb23d1a8f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military/Prefab/SK_Military_Survivalist (4).prefab using Guid(018f1c2109d7023488206bb23d1a8f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb9bb0aec29d498e4cb3634bba31515') in 0.360035 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Military/Texture/Equip/T_Military_Backpack1_ao.png
+  artifactKey: Guid(1f2f5033c35c4e54b9103180985dd9c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Military/Texture/Equip/T_Military_Backpack1_ao.png using Guid(1f2f5033c35c4e54b9103180985dd9c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '305ea67c856cc89b108ef10de56401b6') in 0.025154 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 251
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Military/StarterAssets/InputSystem
-  artifactKey: Guid(48c9acd554a28814b922162e3fa889b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military/StarterAssets/InputSystem using Guid(48c9acd554a28814b922162e3fa889b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364ebace39864885b2fde1f2b9d6a918') in 0.001435 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/Military/Texture/Equip/T_Military_Vest1_rough.png
+  artifactKey: Guid(95f303bfb261c4649a356574795c8561) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Military/Texture/Equip/T_Military_Vest1_rough.png using Guid(95f303bfb261c4649a356574795c8561) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98fbde74caf1781074128fa7e0ed55ba') in 0.020372 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Military/Prefab/UI_EventSystem.prefab
-  artifactKey: Guid(a89164b8df6251f4e96a803e3637e8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military/Prefab/UI_EventSystem.prefab using Guid(a89164b8df6251f4e96a803e3637e8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770142e38a6d922d40d889e64f7b3bc6') in 0.005256 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly SMG Weapon Pack 3/UI/Attachments/Accessories/Lights/Light_B_1k_1.png
+  artifactKey: Guid(1056546bccb0334438cb83e3f52b764f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Low Poly SMG Weapon Pack 3/UI/Attachments/Accessories/Lights/Light_B_1k_1.png using Guid(1056546bccb0334438cb83e3f52b764f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ccfbecb6f95e670538e1dd7a36fb1928') in 0.019824 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Military/Materials/Backpack1_Skin3.mat
-  artifactKey: Guid(daa8d9ddafbf2c3448faa8e6f2b6ae90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military/Materials/Backpack1_Skin3.mat using Guid(daa8d9ddafbf2c3448faa8e6f2b6ae90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afdadc30cf412f6dbd95f3ea8271200') in 0.093877 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Military/Texture/Equip/T_Military_Pouches1_ao.png
+  artifactKey: Guid(1377b6fa6d741134d9edb0874fe48107) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Military/Texture/Equip/T_Military_Pouches1_ao.png using Guid(1377b6fa6d741134d9edb0874fe48107) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb3c8fdce3297d5bbf44cf5b41404f28') in 0.019449 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Military/StarterAssets/Environment/RenderPipelineProfiles/StarterAssetsURPAsset.asset
+  artifactKey: Guid(f48f873ae78af40b9a7b8220a8c6f95f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Military/StarterAssets/Environment/RenderPipelineProfiles/StarterAssetsURPAsset.asset using Guid(f48f873ae78af40b9a7b8220a8c6f95f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61046b28b18f8d50347b3adeb90ca374') in 0.002875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Military/Texture/Equip/T_Military_Gloves1_ao.png
+  artifactKey: Guid(1f3993e45aeccbf40a77c0e9c44587a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Military/Texture/Equip/T_Military_Gloves1_ao.png using Guid(1f3993e45aeccbf40a77c0e9c44587a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8874eb0a78b4468bbaf21ae4fae77b47') in 0.020084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Military/Texture/Top/T_Military_Shirt3_Skin2_color.png
+  artifactKey: Guid(6853f4323220c8a4f9fa2c15d3f266be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Military/Texture/Top/T_Military_Shirt3_Skin2_color.png using Guid(6853f4323220c8a4f9fa2c15d3f266be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a654e1b047de358e96c404a6c994be66') in 0.020571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Military/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx
+  artifactKey: Guid(d2f0da3998423f44594868ffed55c3e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Military/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx using Guid(d2f0da3998423f44594868ffed55c3e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8296ead7fd45a6420413fac85bcb6dde') in 0.013460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly SMG Weapon Pack 3/Prefabs/Attachments/Muzzles/Muzzles_Brake/Muzzle_Brake_B.prefab
+  artifactKey: Guid(6052240452973c346adfe13d65c60811) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Low Poly SMG Weapon Pack 3/Prefabs/Attachments/Muzzles/Muzzles_Brake/Muzzle_Brake_B.prefab using Guid(6052240452973c346adfe13d65c60811) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6f3bbcd3a9f1afaeb112ac16c309e9a') in 0.005822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Low Poly SMG Weapon Pack 3/Models/Attachments/Optics/Optics_Combo/Optic_J.fbx
+  artifactKey: Guid(0bebfa3f5ae7921418c50fda67772fbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Low Poly SMG Weapon Pack 3/Models/Attachments/Optics/Optics_Combo/Optic_J.fbx using Guid(0bebfa3f5ae7921418c50fda67772fbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'deb7a025992e2a74ab772563a0da6c68') in 0.015063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Military/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png
+  artifactKey: Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Military/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png using Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd0ecf275e343291d61e5c32025e215c') in 0.019877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
 AssetImportWorker is now disconnected from the server
